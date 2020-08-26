@@ -2,7 +2,7 @@
 
 ## **Tech**
 
-- C, Python, Frontend, VB, ...<br>
+- C, Python, Javascript, Visual Basic, ...<br>
 - Linux, Reversing, ...
   <br>
   <br>
