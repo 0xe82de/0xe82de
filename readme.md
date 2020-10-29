@@ -10,6 +10,6 @@
 ## **Contact**
 
 - [Email](mailto:0xe82de@gmail.com)<br>
-- [Blog](https://0xe82de.tistory.com/)<br>
+- [Blog](https://0xe82de.com/)<br>
 
 ### **Thank you**
