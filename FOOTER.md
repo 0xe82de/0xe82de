@@ -1,0 +1,2 @@
+| <a href="https://github.com/0xe82de/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=0xe82de&show_icons=true&include_all_commits=true&theme=graywhite&hide_border=true" alt="Kyoungseok Kim's github stats" /></a> | <a href="https://github.com/0xe82de/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=0xe82de&layout=compact&theme=graywhite&hide_border=true" /></a> |
+| - | - |
