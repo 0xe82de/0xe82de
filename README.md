@@ -1,5 +1,5 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F0xe82de%2Fhit-counter&count_bg=%23000000&title_bg=%2300264D&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-| no | Title | Date |
+| No | Title | Date |
 | :-: | :-: | :-: |
 | 46 | [[Python] 내장 함수](https://0xe82de.tistory.com/46) | 2023.02.13 |
 | 45 | [1주 1스프린트 10회차 회고](https://0xe82de.tistory.com/45) | 2023.02.11 |
