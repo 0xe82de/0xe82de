@@ -1,0 +1,33 @@
+name: Get Blog Recent Posts
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  push:
+    branches: [ master ]
+
+jobs:
+  get-blog-posts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.10"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+      - name: Run get-blog-recent-posts.py
+        working-directory: scripts
+        run: |
+          python get-blog-recent-posts.py
+      - name: Commit
+        run: |
+          git config --global user.name '0xe82de'
+          git config --global user.email '0xe82de@gmail.com'
+          git commit -am "auto-create: README.md"
+      - name: Push
+        run: |
+          git push
