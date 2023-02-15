@@ -1,6 +1,9 @@
 name: Get Blog Recent Posts
 
 on:
+  on:
+    workflow_dispatch:
+      branches: [ master ]
   schedule:
     - cron: '0 0 * * *'
   push:
@@ -31,7 +34,6 @@ jobs:
         working-directory: scripts
         run: |
           python get-blog-recent-posts.py
-          date
 
       - name: Commit
         run: |
