@@ -1,9 +1,8 @@
 name: Get Blog Recent Posts
 
 on:
-  on:
-    workflow_dispatch:
-      branches: [ master ]
+  workflow_dispatch:
+    branches: [ master ]
   schedule:
     - cron: '0 0 * * *'
   push:
