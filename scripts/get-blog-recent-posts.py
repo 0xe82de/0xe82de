@@ -43,7 +43,8 @@ def create_header():
 
     header = []
     with open(FILENAME, "r") as file:
-        header += file.readlines()
+        for line in file.readlines():
+            header.append(line.strip())
 
     return header
 
