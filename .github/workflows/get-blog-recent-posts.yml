@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     branches: [ master ]
   schedule:
-    - cron: '15 15 * * *'
+    - cron: '30 15 * * *'
   push:
     branches: [ master ]
 
@@ -31,9 +31,11 @@ jobs:
 
       - name: Commit
         run: |
-          git config --global user.name '0xe82de'
-          git config --global user.email '0xe82de@gmail.com'
-          git commit -am "auto-create: README.md"
+          if [[ -n $(git status -s) ]]; then
+              git config --global user.name '0xe82de'
+              git config --global user.email '0xe82de@gmail.com'
+              git commit -am "auto-create: README.md"
+          fi
 
       - name: Push
         run: |
