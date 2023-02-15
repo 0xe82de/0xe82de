@@ -23,6 +23,7 @@ jobs:
         working-directory: scripts
         run: |
           python get-blog-recent-posts.py
+          date
       - name: Commit
         run: |
           git config --global user.name '0xe82de'
