@@ -4,7 +4,8 @@ on:
   workflow_dispatch:
     branches: [ master ]
   schedule:
-    - cron: '10 0 * * *'
+    - cron: '15 0 * * *'
+    - timezone: 'Asia/Soul'
   push:
     branches: [ master ]
 
@@ -13,11 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
-      - name: Set up Timezone
-        uses: zcong1993/setup-timezone@master
-        with:
-          timezone: Asia/Seoul
 
       - name: Set up Python 3.10
         uses: actions/setup-python@v3
