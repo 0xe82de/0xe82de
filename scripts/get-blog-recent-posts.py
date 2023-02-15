@@ -51,7 +51,7 @@ def create_header():
 def create_body(posts):
     body = []
 
-    body.append("| no | Title | Date |")
+    body.append("| No | Title | Date |")
     body.append("| :-: | :-: | :-: |")
 
     for post in posts:
